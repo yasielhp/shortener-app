@@ -23,7 +23,7 @@ export default function RootLayout ({ children }) {
             </Link>
             <ThemeSwitcher />
           </Card>
-          <main className='py-2'>{children}</main>
+          <main className='flex flex-col gap-4 py-4'>{children}</main>
         </Providers>
       </body>
     </html>
