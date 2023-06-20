@@ -1,7 +1,7 @@
 export default function HomePage () {
   return (
-    <main>
-      ss
-    </main>
+    <p>
+      Hello World
+    </p>
   )
 }
