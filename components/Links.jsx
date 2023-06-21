@@ -1,8 +1,12 @@
+import { Card, Metric } from '@tremor/react'
+import Link from './Link'
+
 const Links = () => {
   return (
-    <div>
-      <h1>Links</h1>
-    </div>
+    <Card>
+      <Metric className='mb-4'>Shortened links</Metric>
+      <Link />
+    </Card>
   )
 }
 

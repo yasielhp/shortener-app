@@ -29,7 +29,7 @@ const Create = () => {
           <div className='w-full flex gap-x-2'>
             <TextInput
               id='slug'
-              placeholder='The custom slug (e.g. link)'
+              placeholder='The custom slug (e.g. customSlug)'
               {...register('slug')}
             />
             <Button className='h-[36px]' type='button'>Generate</Button>
@@ -47,6 +47,9 @@ const Create = () => {
         {
           toggle === 1 && (
             <>
+              <div className='w-full p-2'>
+                <p className='text-xs text-gray-600'>UTM parameters are tags you add to a URL. When someone clicks on a URL with UTM parameters, those tags are sent back to your Google Analytics for tracking.</p>
+              </div>
               <div className='w-full py-2'>
                 <label htmlFor='utm_id' className='px-2 mb-4'>Campaing Id</label>
                 <TextInput

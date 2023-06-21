@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import { Icon } from '@tremor/react'
-import { SunIcon, MoonIcon } from '@heroicons/react/solid'
+import { SunIcon, MoonIcon } from './Icons'
 
 const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
