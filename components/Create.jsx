@@ -51,51 +51,51 @@ const Create = () => {
                 <p className='text-xs text-gray-600'>UTM parameters are tags you add to a URL. When someone clicks on a URL with UTM parameters, those tags are sent back to your Google Analytics for tracking.</p>
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_id' className='px-2 mb-4'>Campaing Id</label>
+                <label htmlFor='utmId' className='px-2 mb-4'>Campaing Id</label>
                 <TextInput
-                  id='utm_id'
+                  id='utmId'
                   placeholder='The campaing id (e.g. 123456)'
-                  {...register('utm_id')}
+                  {...register('utmId')}
                 />
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_source' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Source</label>
+                <label htmlFor='utmSource' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Source</label>
                 <TextInput
-                  id='utm_source'
+                  id='utmSource'
                   placeholder='The campaing source (e.g. google)'
-                  {...register('utm_source')}
+                  {...register('utmSource')}
                 />
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_medium' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Medium</label>
+                <label htmlFor='utmMedium' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Medium</label>
                 <TextInput
-                  id='utm_medium'
+                  id='utmMedium'
                   placeholder='The campaing medium (e.g. cpc)'
-                  {...register('utm_medium')}
+                  {...register('utmMedium')}
                 />
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_name' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Name</label>
+                <label htmlFor='utmName' className="px-2 mb-4 after:content-['*'] after:ml-0.5 after:text-red-500">Campaing Name</label>
                 <TextInput
-                  id='utm_name'
+                  id='utmName'
                   placeholder='The campaing name (e.g. spring_sale)'
-                  {...register('utm_name')}
+                  {...register('utmName')}
                 />
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_term' className='px-2 mb-4'>Campaing Term</label>
+                <label htmlFor='utmTerm' className='px-2 mb-4'>Campaing Term</label>
                 <TextInput
-                  id='utm_term'
+                  id='utmTerm'
                   placeholder='The campaing term (e.g. google)'
-                  {...register('utm_term')}
+                  {...register('utmTerm')}
                 />
               </div>
               <div className='w-full py-2'>
-                <label htmlFor='utm_content' className='px-2 mb-4'>Campaing Content</label>
+                <label htmlFor='utmContent' className='px-2 mb-4'>Campaing Content</label>
                 <TextInput
-                  id='utm_content'
+                  id='utmContent'
                   placeholder='The campaing content (e.g. logo)'
-                  {...register('utm_content')}
+                  {...register('utmContent')}
                 />
               </div>
             </>
